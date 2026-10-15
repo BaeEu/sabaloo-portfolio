@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    background: #ffffff;
+    color: #172033;
+}
+
+button,
+input,
+textarea {
+    font: inherit;
+}
+
+a {
+    transition: color 0.2s ease;
+}
+
+::selection {
+    background: #dbeafe;
+    color: #172033;
+}
